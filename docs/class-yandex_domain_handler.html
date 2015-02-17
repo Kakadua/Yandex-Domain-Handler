@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class yandex_domain_handler | Yandex Domain Handler</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?08b23951ef4599ca9cbf1f902d0e8290c9653ddd">
+	<link rel="stylesheet" href="resources/style.css?062e9e59e0b8c44fbaaded5b7ffc21f907b78669">
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Yandex Domain Handler</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+<span>Package</span>						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="">
+			<input type="hidden" name="ie" value="UTF-8">
+			<input type="text" name="q" class="search-query" placeholder="Search">
+		</form>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+					<li>
+						<a href="package-Kakadua.PHP.Snippets.html">
+							Kakadua-PHP-Snippets						</a>
+							</li>
+					<li>
+						<a href="package-Yandex.Domain.Handler.html">
+							Yandex-Domain-Handler						</a>
+							</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-yandex_domain_handler.html">yandex_domain_handler</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class yandex_domain_handler</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Yandex.Domain.Handler.html">Yandex-Domain-Handler</a><br>
+
+				<b>License:</b>
+				<a href="https://raw.githubusercontent.com/Kakadua/Yandex-Domain-Handler/master/LICENSE">The MIT License</a><br>
+				<b>Author:</b>
+				Patrik "Popeen" Johansson <a href="&#109;a&#105;l&#116;o&#x3a;p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;">p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;</a><br>
+			<b>Located at</b> <a href="source-class-yandex_domain_handler.html#22-145" title="Go to source code">yandex_domain_handler.class.php</a>
+		<br>
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-yandex_domain_handler.html#29-36" title="Go to source code">__construct</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+					<h4>Author</h4>
+					<div class="list">
+							Patrik "Popeen" Johansson <a href="&#109;a&#105;l&#116;o&#x3a;p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;">p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;</a><br>
+					</div>
+					<h4>Version</h4>
+					<div class="list">
+							1<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_account" id="_create_account">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_account">#</a>
+			<code><a href="source-class-yandex_domain_handler.html#38-66" title="Go to source code">create_account</a>( <span>string <var>$domain</var></span>, <span>string <var>$username</var></span>, <span>string <var>$password</var></span> )</code>
+
+			<div class="description short">
+				<p>Create a new account for one of your domains</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Create a new account for one of your domains</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$domain</var></dt>
+						<dd>The domain you want to add the account to</dd>
+						<dt><var>$username</var></dt>
+						<dd>The username you want the account to have</dd>
+						<dt><var>$password</var></dt>
+						<dd>The password you want the account to have</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>Returns false if account could not be created or already exists otherwise true
+					</div>
+
+
+					<h4>Author</h4>
+					<div class="list">
+							Patrik "Popeen" Johansson <a href="&#109;a&#105;l&#116;o&#x3a;p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;">p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;</a><br>
+					</div>
+					<h4>Version</h4>
+					<div class="list">
+							1<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_signed_in" id="_is_signed_in">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_signed_in">#</a>
+			<code><a href="source-class-yandex_domain_handler.html#68-79" title="Go to source code">is_signed_in</a>( )</code>
+
+			<div class="description short">
+				<p>Check if the instance is signed in to a Yandex account</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check if the instance is signed in to a Yandex account</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>Returns true if account is signed in
+					</div>
+
+
+					<h4>Author</h4>
+					<div class="list">
+							Patrik "Popeen" Johansson <a href="&#109;a&#105;l&#116;o&#x3a;p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;">p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;</a><br>
+					</div>
+					<h4>Version</h4>
+					<div class="list">
+							1<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="sign_in" id="_sign_in">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_sign_in">#</a>
+			<code><a href="source-class-yandex_domain_handler.html#81-105" title="Go to source code">sign_in</a>( <span>string <var>$username</var></span>, <span>string <var>$password</var></span> )</code>
+
+			<div class="description short">
+				<p>Sign in to a Yandex account</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Sign in to a Yandex account</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$username</var></dt>
+						<dd>The username for your Yandex admin account</dd>
+						<dt><var>$password</var></dt>
+						<dd>The password for your Yandex admin account</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>Returns true if signed in otherwise false
+					</div>
+
+
+					<h4>Author</h4>
+					<div class="list">
+							Patrik "Popeen" Johansson <a href="&#109;a&#105;l&#116;o&#x3a;p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;">p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;</a><br>
+					</div>
+					<h4>Version</h4>
+					<div class="list">
+							1<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_domains" id="_get_domains">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_domains">#</a>
+			<code><a href="source-class-yandex_domain_handler.html#107-118" title="Go to source code">get_domains</a>( )</code>
+
+			<div class="description short">
+				<p>Get the domains your account has</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the domains your account has</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						array<br>An array with your domains, example array('popeen.com', 'kakadua.net')
+					</div>
+
+
+					<h4>Author</h4>
+					<div class="list">
+							Patrik "Popeen" Johansson <a href="&#109;a&#105;l&#116;o&#x3a;p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;">p&#x61;&#116;&#x72;&#105;&#x6b;&#64;&#x70;&#116;&#x6a;&#119;&#x65;&#98;&#x62;&#101;&#x6e;&#46;&#x73;&#101;</a><br>
+					</div>
+					<h4>Version</h4>
+					<div class="list">
+							1<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="username" id="$username">
+			<td class="attributes"><code>
+				private  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-yandex_domain_handler.html#23" title="Go to source code"><var>$username</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$username" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="password" id="$password">
+			<td class="attributes"><code>
+				private  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-yandex_domain_handler.html#24" title="Go to source code"><var>$password</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$password" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="signed_in" id="$signed_in">
+			<td class="attributes"><code>
+				private  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-yandex_domain_handler.html#25" title="Go to source code"><var>$signed_in</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$signed_in" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="raw" id="$raw">
+			<td class="attributes"><code>
+				private  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-yandex_domain_handler.html#26" title="Go to source code"><var>$raw</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$raw" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="ch" id="$ch">
+			<td class="attributes"><code>
+				private  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-yandex_domain_handler.html#27" title="Go to source code"><var>$ch</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$ch" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		Yandex Domain Handler API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
